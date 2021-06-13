@@ -83,7 +83,7 @@
 //         console.log('Error')
 // };
 
-const num = 50;
+// const num = 50;
 
 // if (num < 49) {
 //     console.log('Error');
@@ -95,17 +95,48 @@ const num = 50;
 
 // (num === 50) ? console.log('Super!') : console.log('Error');
 
-switch (num) {
-    case 49:
-        console.log('Не верно!');
-        break;
-    case 100:
-        console.log('Не верно!');
-        break;
-    case 50: 
-    console.log('В точку!');
-        break;
-    default:
-        console.log('Не в этот раз!');
-        break;        
+// switch (num) {
+//     case 49:
+//         console.log('Не верно!');
+//         break;
+//     case 100:
+//         console.log('Не верно!');
+//         break;
+//     case 50: 
+//     console.log('В точку!');
+//         break;
+//     default:
+//         console.log('Не в этот раз!');
+//         break;        
+// }
+
+let num = 50;
+
+// while (num < 60) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num <= 60);
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 8) {
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+for (let i = 0; i <= 20; i++) {
+
+    if (i % 2 == 0) continue; {
+      console.log(i);
+    }
 }
+
+    
+    
